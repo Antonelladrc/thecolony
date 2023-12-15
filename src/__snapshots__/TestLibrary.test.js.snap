@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Deberia renderizar completamente y correctamente el componente 1`] = `
+<div>
+  <div>
+    <p
+      data-testid="Contador"
+    >
+      Contador: 
+      0
+    </p>
+    <button>
+      Incrementar
+    </button>
+    <button>
+      Decrementar
+    </button>
+  </div>
+  <br />
+  <form>
+    <label>
+      <span>
+        Tu nombre: 
+         
+      </span>
+      <input
+        data-testid="name"
+        name="name"
+        type="text"
+        value=""
+      />
+    </label>
+    <button
+      data-testid="idButton"
+    >
+      Click aqui
+    </button>
+  </form>
+</div>
+`;
